@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 
 // Services
-builder.Services.AddScoped<IWeatherForcastService, WeatherForcastService>();
+builder.Services.AddScoped<IParksService, ParksService>();
 
 
 var app = builder.Build();
